@@ -1,9 +1,11 @@
 pipeline {
- agent any
+ agent {
+ label 'Ansible'
+ }
  stages {
   stage('Hello') {
    steps {
-    sh 'echo hello world'
+    sh 'hostname'
    }
   }
   stage('hello2') {
