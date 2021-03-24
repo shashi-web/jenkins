@@ -6,10 +6,10 @@ pipeline {
     sh 'hostname'
    }
   post {
-          success {
-              echo 'Hostname of agent running'
-          }
+    success {
+      echo 'Hostname of agent running'
       }
+  }
 
   stage('hello2') {
    steps {
