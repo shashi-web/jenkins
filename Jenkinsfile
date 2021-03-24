@@ -10,6 +10,7 @@ pipeline {
       echo 'Hostname of agent running'
       }
   }
+  }
 
   stage('hello2') {
    steps {
