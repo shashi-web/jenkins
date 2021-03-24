@@ -7,7 +7,7 @@ pipeline {
    }
   post {
     success {
-      echo 'Hostname of agent running'
+      echo 'Hostname of agent running {hostname}'
       }
   }
   }
