@@ -1,7 +1,5 @@
 pipeline {
- agent {
- label 'ANSIBLE'
- }
+ agent { agent1 { label 'SHELL' } }
  stages {
   stage('Hello') {
    steps {
