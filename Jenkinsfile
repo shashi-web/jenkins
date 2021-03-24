@@ -10,12 +10,6 @@ pipeline {
               echo 'Hostname of agent running'
           }
       }
-  post {
-          failure {
-              echo 'check the code'
-          }
-      }
-  }
 
   stage('hello2') {
    steps {
