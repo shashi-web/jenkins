@@ -5,5 +5,5 @@ pipeline {
     sh "echo hello world"
    }
   }
- } ## stage
-} ## pipeline
+ } ##stage
+} ##pipeline
